@@ -10,9 +10,13 @@ that ports those bots or a map that keeps their data.
 
 ## Install
 
+It is not in the catalog: nothing in the engine reads a `.nav`. Install it by its address:
+
 ```sh
-mirai plugin add goldsrc_nav
+mirai plugin add https://github.com/5hif7y/mirai-goldsrc-nav.git
 ```
+
+It is the base of a tool to come that converts the navigation of GoldSrc NPCs to Mirai.
 
 ## API
 
